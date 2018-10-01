@@ -38,7 +38,7 @@ with open("transferFile.txt", 'w') as f :
         else :
             print("File recieved")
             f.write(ft.decode())
-            print("File: %s", (ft))
+            print("File: ", (ft))
             print("File written")
     f.close()
 
