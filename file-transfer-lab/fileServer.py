@@ -31,7 +31,7 @@ print("connection rec'd from", addr)
 
 file = "transferFile.txt"
 
-with open("transferFile.txt", 'w') as f :
+with open(file, 'w') as f :
     while True :
         ft = sock.recv(100) #receiving file transfer
         if not ft : break
